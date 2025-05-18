@@ -79,6 +79,7 @@ void render_init_color_texture(u32 *texture) {
 }
 
 void render_init_quad(u32 *vao, u32 *vbo, u32 *ebo) {
+    //    x,   y, z, u, v 
     f32 vertices[] = {
         0.5, 0.5, 0, 0, 0,
         0.5, -0.5, 0, 0, 1,
