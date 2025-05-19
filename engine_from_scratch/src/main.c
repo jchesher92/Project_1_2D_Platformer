@@ -13,8 +13,6 @@ int main(int argc, char *argv[]) {
 
     while (!should_quit) {
 
-        glViewport(0,0,640,480);
-
         SDL_Event event;
         // Start event loop
         while (SDL_PollEvent(&event)) {
@@ -22,12 +20,12 @@ int main(int argc, char *argv[]) {
             // if (event.type == SDL_MOUSEMOTION) {
                 // printf("mouse has been moved\n");
             // }
-            if (event.type == SDL_KEYDOWN) {
-                printf("a key has been pressed\n");
-                if (event.key.keysym.sym == SDLK_0) {
-                    printf("0 was pressed\n");
-                } 
-            }
+            // if (event.type == SDL_KEYDOWN) {
+                // printf("a key has been pressed\n");
+                // if (event.key.keysym.sym == SDLK_0) {
+                    // printf("0 was pressed\n");
+                // } 
+            // }
             switch (event.type) {
                 case SDL_QUIT:
                     should_quit = true;
