@@ -68,7 +68,7 @@ void render_init_shaders(Render_State_Internal *state) {
     );
 }
 
-void render_init_color(u32 *texture) {
+void render_init_color_texture(u32 *texture) {
     glGenTextures(1, texture);
     glBindTexture(GL_TEXTURE_2D, *texture);
 

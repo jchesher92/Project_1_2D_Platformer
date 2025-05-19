@@ -13,7 +13,7 @@ void render_init(void) {
 
     render_init_quad(&state.vao_quad, &state.vbo_quad, &state.ebo_quad);
     render_init_shaders(&state);
-    render_init_color(&state.texture_color);
+    render_init_color_texture(&state.texture_color);
 }
 
 void render_begin(void) {
