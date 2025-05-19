@@ -13,8 +13,6 @@ int main(int argc, char *argv[]) {
 
     while (!should_quit) {
 
-        // glViewport(0,0, 50, 50);
-
         SDL_Event event;
         // Start event loop
         while (SDL_PollEvent(&event)) {
