@@ -38,8 +38,6 @@ int main(int argc, char *argv[]) {
     pos[0] = global.render.width * 0.5;
     pos[1] = global.render.height * 0.5;
     
-    // bool should_quit = false;
-
     while (!should_quit) {
         time_update();
 

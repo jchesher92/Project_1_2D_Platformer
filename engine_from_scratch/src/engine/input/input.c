@@ -4,10 +4,11 @@
 
 static void update_key_state(u8 current_state, Key_State *key_state) {
 	if (current_state) {
-		if (*key_state > 0)
+		if (*key_state > 0) {
 			*key_state = KS_HELD;
-		else
+		} else {
 			*key_state = KS_PRESSED;
+		}
 	} else {
 		*key_state = KS_UNPRESSED;
 	}

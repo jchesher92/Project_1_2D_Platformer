@@ -81,10 +81,10 @@ int io_file_write(void *buffer, size_t size, const char *path) {
 
     fclose(fp);
 
-    if (chunks_written != 1)
+    if (chunks_written != 1) {
 		ERROR_RETURN(1, "Write error. "
 				"Expected 1 chunk, got %zu.\n", chunks_written);
+    }
 
 	return 0;
-
 }
