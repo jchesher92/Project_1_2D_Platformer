@@ -1,0 +1,14 @@
+# ninja log v5
+0	249	1748107301321976108	CMakeFiles/main.dir/engine_from_scratch/src/main.c.o	fb0a75eec6dd8c67
+1	89	1748107659998954262	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o	71287b16db3d83a3
+1	498	1748107660406946240	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o	7058f49ecb451899
+1	104	1748107660014953947	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o	b9deeaa6b75ea321
+1	418	1748107660326947813	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o	2798367307fb4583
+2	442	1748107660350947340	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o	6565fd88ad9d9fd8
+1	454	1748107660362947105	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o	2fee4cb77750289e
+1	434	1748107660342947498	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o	1a5d64487f09611
+2	470	1748107660378946789	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o	f96b4d42fa802f47
+1	451	1748107660358947183	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o	b2515370727cd329
+1	486	1748107660394946475	CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o	d8bdbf747dd4d315
+498	516	1748107660422945925	libproject_1_2d_platformer.a	a2593880922c94
+0	44	1748108260107106565	main	4a272f9efea5a938
