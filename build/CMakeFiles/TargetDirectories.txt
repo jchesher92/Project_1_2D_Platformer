@@ -1,0 +1,4 @@
+/home/james/Development/Repos/Project_1_2D_Platformer/build/CMakeFiles/project_1_2d_platformer.dir
+/home/james/Development/Repos/Project_1_2D_Platformer/build/CMakeFiles/main.dir
+/home/james/Development/Repos/Project_1_2D_Platformer/build/CMakeFiles/edit_cache.dir
+/home/james/Development/Repos/Project_1_2D_Platformer/build/CMakeFiles/rebuild_cache.dir
