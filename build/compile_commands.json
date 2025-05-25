@@ -1,57 +1,67 @@
 [
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/glad.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/glad.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/glad.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/global.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/global.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/global.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_init.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_init.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_init.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_util.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_util.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_util.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/io/io.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/io/io.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/io/io.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/time/time.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/time/time.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/time/time.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/config/config.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/config/config.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/config/config.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/input/input.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list/array_list.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/array_list/array_list.c",
+  "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/array_list/array_list.c"
+},
+{
+  "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics/physics.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/physics/physics.c",
+  "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/physics/physics.c"
+},
+{
+  "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/input/input.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/input/input.c"
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/./include -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine -I/home/james/Development/Repos/Project_1_2D_Platformer/./engine_from_scratch/src/engine/time -I/usr/include/SDL2 -I/usr/include/freetype2 -g -o CMakeFiles/main.dir/engine_from_scratch/src/main.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/main.dir/engine_from_scratch/src/main.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c"
 }
 ]

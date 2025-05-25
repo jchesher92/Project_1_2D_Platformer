@@ -10,11 +10,13 @@ add_library(project_1_2d_platformer ./engine_from_scratch/src/glad.c
 ./engine_from_scratch/src/engine/io/io.c 
 ./engine_from_scratch/src/engine/time/time.c 
 ./engine_from_scratch/src/engine/config/config.c
+./engine_from_scratch/src/engine/array_list/array_list.c
+./engine_from_scratch/src/engine/physics/physics.c
 ./engine_from_scratch/src/engine/input/input.c)
 
-include_directories(./include)
+include_directories(include)
 
-add_executable(main ./engine_from_scratch/src/main.c)
+add_executable(main engine_from_scratch/src/main.c)
 
 # link the 'my_program_code' library into the main executable
-target_link_libraries(main project_1_2d_platformer SDL2 SDL2main freetype)
+target_link_libraries(main project_1_2d_platformer SDL2 SDL2main freetype m)
