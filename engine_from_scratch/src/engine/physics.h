@@ -41,13 +41,11 @@ struct static_body {
 	u8 collision_layer;
 };
 
-struct hit {
-	usize other_id;
+typedef struct hit {
 	f32 time;
 	vec2 position;
-	vec2 normal;
 	bool is_hit;
-};
+} Hit;
 
 void physics_init(void);
 void physics_update(void);
