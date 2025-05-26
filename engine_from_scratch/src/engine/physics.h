@@ -36,14 +36,15 @@ typedef struct body {
 	// bool is_active;
 } Body;
 
-struct static_body {
+typedef struct static_body {
 	AABB aabb;
 	u8 collision_layer;
-};
+} Static_Body;
 
 typedef struct hit {
 	f32 time;
 	vec2 position;
+	vec2 normal;
 	bool is_hit;
 } Hit;
 
@@ -54,7 +55,7 @@ usize physics_trigger_create(vec2 position, vec2 size, u8 collision_layer, u8 co
 Body *physics_body_get(usize index);
 Static_Body *physics_static_body_get(usize index);
 usize physics_static_body_count();
-usize physics_static_body_create(vec2 position, vec2 size, u8 collision_layer);
+usize physics_static_body_create(vec2 position, vec2 size);
 bool physics_point_intersect_aabb(vec2 point, AABB aabb);
 bool physics_aabb_intersect_aabb(AABB a, AABB b);
 AABB aabb_minkowski_difference(AABB a, AABB b);
