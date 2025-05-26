@@ -56,6 +56,11 @@
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/entity/entity.c",
+  "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/entity/entity.c"
+},
+{
+  "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
   "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/input/input.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/input/input.c"
 },

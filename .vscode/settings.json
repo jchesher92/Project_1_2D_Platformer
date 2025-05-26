@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "render_internal.h": "c"
+        "render_internal.h": "c",
+        "inttypes.h": "c"
     }
 }
