@@ -87,7 +87,7 @@ int main(int argc, char *argv[]) {
     u8 enemy_mask = COLLISION_LAYER_PLAYER | COLLISION_LAYER_TERRAIN;
     u8 player_mask = COLLISION_LAYER_ENEMY | COLLISION_LAYER_TERRAIN;
 
-    u32 player_id = entity_create((vec2){100, 800}, (vec2){50, 50}, (vec2){0, 0}, COLLISION_LAYER_PLAYER, player_mask, player_on_hit, player_on_hit_static);
+    u32 player_id = entity_create((vec2){100, 800}, (vec2){100, 100}, (vec2){0, 0}, COLLISION_LAYER_PLAYER, player_mask, player_on_hit, player_on_hit_static);
 
     f32 width = global.render.width;
     f32 height = global.render.height;
