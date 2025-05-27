@@ -126,6 +126,13 @@ build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/phys
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics
 
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/entity/entity.c || cmake_object_order_depends_target_project_1_2d_platformer
+  DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o.d
+  FLAGS = -O3 -DNDEBUG
+  INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include
+  OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity
+
 build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/input/input.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o.d
   FLAGS = -O3 -DNDEBUG
@@ -141,7 +148,7 @@ build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/inpu
 #############################################
 # Link the static library libproject_1_2d_platformer.a
 
-build libproject_1_2d_platformer.a: C_STATIC_LIBRARY_LINKER__project_1_2d_platformer_Release CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list/array_list.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics/physics.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o
+build libproject_1_2d_platformer.a: C_STATIC_LIBRARY_LINKER__project_1_2d_platformer_Release CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list/array_list.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics/physics.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o
   LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   POST_BUILD = :
