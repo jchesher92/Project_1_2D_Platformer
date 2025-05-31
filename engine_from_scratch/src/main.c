@@ -99,6 +99,10 @@ int main(int argc, char *argv[]) {
 
     usize entity_a_id = entity_create((vec2){200, 200}, (vec2){25, 25}, (vec2){400, 0}, COLLISION_LAYER_ENEMY, enemy_mask, NULL, enemy_on_hit_static);
     usize entity_b_id = entity_create((vec2){300, 300}, (vec2){25, 25}, (vec2){400, 0}, 0, enemy_mask, NULL, enemy_on_hit_static);
+
+    Sprite_Sheet sprite_sheet_player;
+    render_sprite_sheet_init(&sprite_sheet_player, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/player.png", 24, 24);
+
     while (!should_quit) {
         time_update();
 
@@ -148,7 +152,11 @@ int main(int argc, char *argv[]) {
             append_quad((vec2){rand() % 640, rand() % 360}, (vec2){rand() % 100}, NULL, color);
         }
 
-        render_end(window);
+        render_sprite_sheet_frame(&sprite_sheet_player, 1, 2, (vec2){100, 100});
+        render_sprite_sheet_frame(&sprite_sheet_player, 0, 4, (vec2){200, 200});
+        render_sprite_sheet_frame(&sprite_sheet_player, 0, 0, body_player->aabb.position);
+
+        render_end(window, sprite_sheet_player.texture_id);
 
         player_color[0] = 0;
         player_color[2] = 1;
