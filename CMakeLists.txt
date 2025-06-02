@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.25.1)
 project(Project_1_2D_Platformer)
 
+include_directories(include)
+include_directories(assets)
+include_directories(shaders)
+
 add_library(project_1_2d_platformer ./engine_from_scratch/src/glad.c 
 ./engine_from_scratch/src/main.c 
 ./engine_from_scratch/src/engine/global.c 
@@ -14,8 +18,6 @@ add_library(project_1_2d_platformer ./engine_from_scratch/src/glad.c
 ./engine_from_scratch/src/engine/physics/physics.c
 ./engine_from_scratch/src/engine/entity/entity.c
 ./engine_from_scratch/src/engine/input/input.c)
-
-include_directories(include)
 
 add_executable(main engine_from_scratch/src/main.c)
 

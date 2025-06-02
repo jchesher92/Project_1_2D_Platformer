@@ -26,13 +26,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
 				"line" : 4,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 18,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
 				"parent" : 0
 			}
 		]
@@ -51,6 +63,14 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/assets"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/shaders"
 				}
 			],
 			"language" : "C",
