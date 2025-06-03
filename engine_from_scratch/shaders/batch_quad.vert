@@ -9,7 +9,7 @@ out vec2 v_uvs;
 uniform mat4 projection;
 
 void main() {
-    v_color = a_color;
-    v_uvs = a_uvs;
-    gl_Position = projection * vec4(a_pos, 0.0, 1.0);
+	v_color = a_color;
+	v_uvs = a_uvs;
+	gl_Position = projection * vec4(a_pos, 0.0, 1.0);
 }
