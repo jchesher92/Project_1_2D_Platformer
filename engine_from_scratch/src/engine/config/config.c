@@ -1,5 +1,5 @@
 #include "../global.h"
-#include "../io/io.h"
+#include "../io.h"
 #include "../util.h"
 #include "../input.h"
 #include "../config.h"

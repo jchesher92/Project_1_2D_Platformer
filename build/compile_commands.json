@@ -66,6 +66,11 @@
 },
 {
   "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
+  "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders -O3 -DNDEBUG -o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/animation/animation.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/animation/animation.c",
+  "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/animation/animation.c"
+},
+{
+  "directory": "/home/james/Development/Repos/Project_1_2D_Platformer/build",
   "command": "/usr/bin/gcc -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders -O3 -DNDEBUG -o CMakeFiles/main.dir/engine_from_scratch/src/main.c.o -c /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c",
   "file": "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c"
 }

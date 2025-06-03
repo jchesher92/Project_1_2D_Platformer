@@ -17,7 +17,8 @@ add_library(project_1_2d_platformer ./engine_from_scratch/src/glad.c
 ./engine_from_scratch/src/engine/array_list/array_list.c
 ./engine_from_scratch/src/engine/physics/physics.c
 ./engine_from_scratch/src/engine/entity/entity.c
-./engine_from_scratch/src/engine/input/input.c)
+./engine_from_scratch/src/engine/input/input.c
+./engine_from_scratch/src/engine/animation/animation.c)
 
 add_executable(main engine_from_scratch/src/main.c)
 
