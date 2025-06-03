@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: Project_1_2D_Platformer
-# Configurations: Release
+# Configurations: Debug
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Release
+CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -49,103 +49,110 @@ cmake_ninja_workdir = /home/james/Development/Repos/Project_1_2D_Platformer/buil
 
 build cmake_object_order_depends_target_project_1_2d_platformer: phony || CMakeFiles/project_1_2d_platformer.dir
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/glad.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/glad.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/global.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/global.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_init.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_init.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_util.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/render/render_util.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/io/io.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/io/io.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/time/time.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/time/time.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/config/config.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/config/config.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list/array_list.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/array_list/array_list.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list/array_list.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/array_list/array_list.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list/array_list.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics/physics.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/physics/physics.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics/physics.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/physics/physics.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics/physics.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/entity/entity.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/entity/entity.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/input/input.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/input/input.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input
 
-build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/animation/animation.c.o: C_COMPILER__project_1_2d_platformer_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/animation/animation.c || cmake_object_order_depends_target_project_1_2d_platformer
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/animation/animation.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/animation/animation.c || cmake_object_order_depends_target_project_1_2d_platformer
   DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/animation/animation.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/animation
+
+build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/audio/audio.c.o: C_COMPILER__project_1_2d_platformer_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/engine/audio/audio.c || cmake_object_order_depends_target_project_1_2d_platformer
+  DEP_FILE = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/audio/audio.c.o.d
+  FLAGS = -g
+  INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
+  OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/audio
 
 
 # =============================================================================
@@ -155,8 +162,8 @@ build CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/anim
 #############################################
 # Link the static library libproject_1_2d_platformer.a
 
-build libproject_1_2d_platformer.a: C_STATIC_LIBRARY_LINKER__project_1_2d_platformer_Release CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list/array_list.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics/physics.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/animation/animation.c.o
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
+build libproject_1_2d_platformer.a: C_STATIC_LIBRARY_LINKER__project_1_2d_platformer_Debug CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/glad.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/main.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/global.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_init.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/render/render_util.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/io/io.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/time/time.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/config/config.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/array_list/array_list.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/physics/physics.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/entity/entity.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/input/input.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/animation/animation.c.o CMakeFiles/project_1_2d_platformer.dir/engine_from_scratch/src/engine/audio/audio.c.o
+  LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles/project_1_2d_platformer.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -172,9 +179,9 @@ build libproject_1_2d_platformer.a: C_STATIC_LIBRARY_LINKER__project_1_2d_platfo
 
 build cmake_object_order_depends_target_main: phony || cmake_object_order_depends_target_project_1_2d_platformer
 
-build CMakeFiles/main.dir/engine_from_scratch/src/main.c.o: C_COMPILER__main_Release /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c || cmake_object_order_depends_target_main
+build CMakeFiles/main.dir/engine_from_scratch/src/main.c.o: C_COMPILER__main_Debug /home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/src/main.c || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/engine_from_scratch/src/main.c.o.d
-  FLAGS = -O3 -DNDEBUG
+  FLAGS = -g
   INCLUDES = -I/home/james/Development/Repos/Project_1_2D_Platformer/include -I/home/james/Development/Repos/Project_1_2D_Platformer/assets -I/home/james/Development/Repos/Project_1_2D_Platformer/shaders
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/engine_from_scratch/src
@@ -187,9 +194,9 @@ build CMakeFiles/main.dir/engine_from_scratch/src/main.c.o: C_COMPILER__main_Rel
 #############################################
 # Link the executable main
 
-build main: C_EXECUTABLE_LINKER__main_Release CMakeFiles/main.dir/engine_from_scratch/src/main.c.o | libproject_1_2d_platformer.a || libproject_1_2d_platformer.a
-  FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = libproject_1_2d_platformer.a  -lSDL2  -lSDL2main  -lfreetype  -lm
+build main: C_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/engine_from_scratch/src/main.c.o | libproject_1_2d_platformer.a || libproject_1_2d_platformer.a
+  FLAGS = -g
+  LINK_LIBRARIES = libproject_1_2d_platformer.a  -lSDL2  -lSDL2main  -lfreetype  -lm  -lSDL2_mixer
   OBJECT_DIR = CMakeFiles/main.dir
   POST_BUILD = :
   PRE_LINK = :

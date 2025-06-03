@@ -55,7 +55,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG"
+					"fragment" : "-g"
 				}
 			],
 			"includes" : 
@@ -89,7 +89,8 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14
 			]
 		}
 	],
@@ -120,7 +121,8 @@
 				10,
 				11,
 				12,
-				13
+				13,
+				14
 			]
 		}
 	],
@@ -208,6 +210,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "engine_from_scratch/src/engine/animation/animation.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "engine_from_scratch/src/engine/audio/audio.c",
 			"sourceGroupIndex" : 0
 		}
 	],
