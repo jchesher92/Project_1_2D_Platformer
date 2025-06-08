@@ -344,7 +344,7 @@ int main(int argc, char *argv[]) {
 	audio_sound_load(&SOUND_HURT, "engine_from_scratch/assets/hurt.wav");
 	audio_sound_load(&SOUND_ENEMY_DEATH, "engine_from_scratch/assets/enemy_death.wav");
 	audio_sound_load(&SOUND_PLAYER_DEATH, "engine_from_scratch/assets/player_death.wav");
-	audio_music_load(&MUSIC_STAGE_1, "engine_from_scratch/assets/bullet_hit_wall.wav");
+	// audio_music_load(&MUSIC_STAGE_1, "engine_from_scratch/assets/bullet_hit_wall.wav");
 
 	i32 window_width, window_height;
 	SDL_GetWindowSize(window, &window_width, &window_height);
