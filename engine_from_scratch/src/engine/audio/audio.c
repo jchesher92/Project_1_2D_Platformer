@@ -9,14 +9,14 @@ void audio_init(void) {
 	i32 audio_rate = 44100;
 	u16 audio_format = MIX_DEFAULT_FORMAT;
 	i32 audio_channels = 2;
-	i32 audio_chunksize = 2048;
+	i32 audio_buffers = 4096;
 
-	if (Mix_OpenAudio(audio_rate, audio_format, audio_channels, audio_chunksize)) {
+	if (Mix_OpenAudio(audio_rate, audio_format, audio_channels, audio_buffers)) {
 		ERROR_EXIT("SDL_Mixer error: OpenAudio: %s\n", Mix_GetError());
 	}
 
-	Mix_Volume(-1, 6);
-	Mix_VolumeMusic(6);
+    Mix_Volume(-1, 6);
+    Mix_VolumeMusic(6);
 }
 
 void audio_sound_load(Mix_Chunk **chunk, const char *path) {
