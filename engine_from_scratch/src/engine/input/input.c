@@ -4,11 +4,10 @@
 
 static void update_key_state(u8 current_state, Key_State *key_state) {
 	if (current_state) {
-		if (*key_state > 0) {
+		if (*key_state > 0)
 			*key_state = KS_HELD;
-		} else {
+		else
 			*key_state = KS_PRESSED;
-		}
 	} else {
 		*key_state = KS_UNPRESSED;
 	}
@@ -20,7 +19,6 @@ void input_update() {
 	update_key_state(keyboard_state[global.config.keybinds[INPUT_KEY_LEFT]], &global.input.left);
 	update_key_state(keyboard_state[global.config.keybinds[INPUT_KEY_RIGHT]], &global.input.right);
 	update_key_state(keyboard_state[global.config.keybinds[INPUT_KEY_UP]], &global.input.up);
-	update_key_state(keyboard_state[global.config.keybinds[INPUT_KEY_DOWN]], &global.input.down);
-	// update_key_state(keyboard_state[global.config.keybinds[INPUT_KEY_SHOOT]], &global.input.shoot);
+	update_key_state(keyboard_state[global.config.keybinds[INPUT_KEY_SHOOT]], &global.input.shoot);
 	update_key_state(keyboard_state[global.config.keybinds[INPUT_KEY_ESCAPE]], &global.input.escape);
 }
