@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.25.1"
@@ -20,7 +20,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-80222b7cf34c540c11df.json",
+					"jsonFile" : "target-main-Release-192806d76f0ac8e40c57.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "project_1_2d_platformer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-project_1_2d_platformer-Debug-c5509706fb7acd436a76.json",
+					"jsonFile" : "target-project_1_2d_platformer-Release-2cc8faa15448c121d66a.json",
 					"name" : "project_1_2d_platformer",
 					"projectIndex" : 0
 				}
