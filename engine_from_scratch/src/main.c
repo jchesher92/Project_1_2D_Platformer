@@ -338,13 +338,13 @@ int main(int argc, char *argv[]) {
 	animation_init();
 	audio_init();
 
-	audio_sound_load(&SOUND_JUMP, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/jump.wav");
-	audio_sound_load(&SOUND_SHOOT, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/shoot.wav");
-	audio_sound_load(&SOUND_BULLET_HIT_WALL, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/bullet_hit_wall.wav");
-	audio_sound_load(&SOUND_HURT, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/hurt.wav");
-	audio_sound_load(&SOUND_ENEMY_DEATH, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/enemy_death.wav");
-	audio_sound_load(&SOUND_PLAYER_DEATH, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/player_death.wav");
-	audio_music_load(&MUSIC_STAGE_1, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/bullet_hit_wall.wav");
+	audio_sound_load(&SOUND_JUMP, "engine_from_scratch/assets/jump.wav");
+	audio_sound_load(&SOUND_SHOOT, "engine_from_scratch/assets/shoot.wav");
+	audio_sound_load(&SOUND_BULLET_HIT_WALL, "engine_from_scratch/assets/bullet_hit_wall.wav");
+	audio_sound_load(&SOUND_HURT, "engine_from_scratch/assets/hurt.wav");
+	audio_sound_load(&SOUND_ENEMY_DEATH, "engine_from_scratch/assets/enemy_death.wav");
+	audio_sound_load(&SOUND_PLAYER_DEATH, "engine_from_scratch/assets/player_death.wav");
+	audio_music_load(&MUSIC_STAGE_1, "engine_from_scratch/assets/bullet_hit_wall.wav");
 
 	i32 window_width, window_height;
 	SDL_GetWindowSize(window, &window_width, &window_height);
@@ -358,13 +358,13 @@ int main(int argc, char *argv[]) {
 	Sprite_Sheet sprite_sheet_props;
     Sprite_Sheet sprite_sheet_fire;
     Sprite_Sheet sprite_sheet_weapons;
-	render_sprite_sheet_init(&sprite_sheet_player, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/player.png", 24, 24);
-    render_sprite_sheet_init(&sprite_sheet_map, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/map.png", 640, 360);
-    render_sprite_sheet_init(&sprite_sheet_enemy_small, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/enemy_small.png", 24, 24);
-    render_sprite_sheet_init(&sprite_sheet_enemy_large, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/enemy_large.png", 40, 40);
-    render_sprite_sheet_init(&sprite_sheet_props, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/props_16x16.png", 16, 16);
-    render_sprite_sheet_init(&sprite_sheet_fire, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/fire.png", 32, 64);
-    render_sprite_sheet_init(&sprite_sheet_weapons, "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/assets/weapons.png", 32, 32);
+	render_sprite_sheet_init(&sprite_sheet_player, "engine_from_scratch/assets/player.png", 24, 24);
+    render_sprite_sheet_init(&sprite_sheet_map, "engine_from_scratch/assets/map.png", 640, 360);
+    render_sprite_sheet_init(&sprite_sheet_enemy_small, "engine_from_scratch/assets/enemy_small.png", 24, 24);
+    render_sprite_sheet_init(&sprite_sheet_enemy_large, "engine_from_scratch/assets/enemy_large.png", 40, 40);
+    render_sprite_sheet_init(&sprite_sheet_props, "engine_from_scratch/assets/props_16x16.png", 16, 16);
+    render_sprite_sheet_init(&sprite_sheet_fire, "engine_from_scratch/assets/fire.png", 32, 64);
+    render_sprite_sheet_init(&sprite_sheet_weapons, "engine_from_scratch/assets/weapons.png", 32, 32);
 
 	usize adef_player_walk_id = animation_definition_create(&sprite_sheet_player, 0.1, 0, (u8[]){1, 2, 3, 4, 5, 6, 7}, 7);
 	usize adef_player_idle_id = animation_definition_create(&sprite_sheet_player, 0, 0, (u8[]){0}, 1);
