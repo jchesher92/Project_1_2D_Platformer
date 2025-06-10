@@ -44,8 +44,8 @@ SDL_Window *render_init_window(u32 width, u32 height) {
 
 void render_init_shaders(u32 *shader_default, u32 *shader_batch, f32 render_width, f32 render_height) {
 	mat4x4 projection;
-	*shader_default = render_shader_create("/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/shaders/default.vert", "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/shaders/default.frag");
-	*shader_batch = render_shader_create("/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/shaders/batch_quad.vert", "/home/james/Development/Repos/Project_1_2D_Platformer/engine_from_scratch/shaders/batch_quad.frag");
+	*shader_default = render_shader_create("engine_from_scratch/shaders/default.vert", "engine_from_scratch/shaders/default.frag");
+	*shader_batch = render_shader_create("engine_from_scratch/shaders/batch_quad.vert", "engine_from_scratch/shaders/batch_quad.frag");
 
 	mat4x4_ortho(projection, 0, render_width, 0, render_height, -2, 2);
 
@@ -65,11 +65,11 @@ void render_init_shaders(u32 *shader_default, u32 *shader_batch, f32 render_widt
 		&projection[0][0]
 	);
 
-	for (u32 i = 0; i < 8; ++i) {
-		char name[] = "texture_slot_N";
-		sprintf(name, "texture_slot_%u", i);
-		glUniform1i(glGetUniformLocation(*shader_batch, name), i);
-	}
+    for (u32 i = 0; i < 8; ++i) {
+        char name[] = "texture_slot_N";
+        sprintf(name, "texture_slot_%u", i);
+        glUniform1i(glGetUniformLocation(*shader_batch, name), i);
+    }
 }
 
 void render_init_color_texture(u32 *texture) {
@@ -152,7 +152,7 @@ void render_init_batch_quads(u32 *vao, u32 *vbo, u32 *ebo) {
 	glBindBuffer(GL_ARRAY_BUFFER, *vbo);
 	glBufferData(GL_ARRAY_BUFFER, MAX_BATCH_VERTICES * sizeof(Batch_Vertex), NULL, GL_DYNAMIC_DRAW);
 
-	// [x, y], [u, v], [r, g, b, a]
+	// [x, y], [u, v], [r, g, b, a], [texture_slot]
 	glEnableVertexAttribArray(0);
 	glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, sizeof(Batch_Vertex), (void*)offsetof(Batch_Vertex, position));
 	glEnableVertexAttribArray(1);
