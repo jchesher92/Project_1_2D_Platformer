@@ -9,7 +9,7 @@ static const char *CONFIG_DEFAULT =
 	"left = A\n"
 	"right = D\n"
 	"up = W\n"
-	"shoot = E\n"
+	"down = S\n"
 	"escape = Escape\n"
 	"\n";
 

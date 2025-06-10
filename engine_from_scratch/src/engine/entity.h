@@ -12,13 +12,11 @@ typedef struct entity {
     vec2 sprite_offset;
 	bool is_active;
     bool is_enraged;
-    bool is_flipped;
     u8 health;
-    f32 lifetime;
 } Entity;
 
 void entity_init(void);
-usize entity_create(vec2 position, vec2 size, vec2 sprite_offset, vec2 velocity, u8 collision_layer, u8 collision_mask, bool is_kinematic, usize animation_id, On_Hit on_hit, On_Hit_Static on_hit_static, f32 lifetime);
+usize entity_create(vec2 position, vec2 size, vec2 sprite_offset, vec2 velocity, u8 collision_layer, u8 collision_mask, bool is_kinematic, usize animation_id, On_Hit on_hit, On_Hit_Static on_hit_static);
 Entity *entity_get(usize id);
 usize entity_count(void);
 void entity_reset(void);
