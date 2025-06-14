@@ -1,4 +1,4 @@
-# Install script for directory: /home/james/Development/Repos/Project_1_2D_Platformer
+# Install script for directory: /home/james/Development/Repos/2d_platformers/Project_2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/james/Development/Repos/Project_1_2D_Platformer/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/james/Development/Repos/2d_platformers/Project_2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

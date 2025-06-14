@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.25.1)
-project(Project_1_2D_Platformer)
+project(Project_2)
 
 include_directories(include)
 include_directories(assets)
 include_directories(shaders)
 
-add_library(project_1_2d_platformer ./engine_from_scratch/src/glad.c 
+add_library( project_2 ./engine_from_scratch/src/glad.c 
 ./engine_from_scratch/src/main.c 
 ./engine_from_scratch/src/engine/global.c 
 ./engine_from_scratch/src/engine/render/render.c 
@@ -24,4 +24,4 @@ add_library(project_1_2d_platformer ./engine_from_scratch/src/glad.c
 add_executable(main engine_from_scratch/src/main.c)
 
 # link the 'my_program_code' library into the main executable
-target_link_libraries(main project_1_2d_platformer SDL2 SDL2main freetype m SDL2_mixer)
+target_link_libraries(main project_2 SDL2 SDL2main freetype m SDL2_mixer)

@@ -68,15 +68,15 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/include"
+					"path" : "/home/james/Development/Repos/2d_platformers/Project_2/include"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/assets"
+					"path" : "/home/james/Development/Repos/2d_platformers/Project_2/assets"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/shaders"
+					"path" : "/home/james/Development/Repos/2d_platformers/Project_2/shaders"
 				}
 			],
 			"language" : "C",
@@ -90,7 +90,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "project_1_2d_platformer::@6890427a1f51a3e7e1df"
+			"id" : "project_2::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "main::@6890427a1f51a3e7e1df",
@@ -108,7 +108,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libproject_1_2d_platformer.a",
+				"fragment" : "libproject_2.a",
 				"role" : "libraries"
 			},
 			{

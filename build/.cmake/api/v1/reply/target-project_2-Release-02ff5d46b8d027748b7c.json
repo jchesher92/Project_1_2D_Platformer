@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libproject_1_2d_platformer.a"
+			"path" : "libproject_2.a"
 		}
 	],
 	"backtrace" : 1,
@@ -62,15 +62,15 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/include"
+					"path" : "/home/james/Development/Repos/2d_platformers/Project_2/include"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/assets"
+					"path" : "/home/james/Development/Repos/2d_platformers/Project_2/assets"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/james/Development/Repos/Project_1_2D_Platformer/shaders"
+					"path" : "/home/james/Development/Repos/2d_platformers/Project_2/shaders"
 				}
 			],
 			"language" : "C",
@@ -94,9 +94,9 @@
 			]
 		}
 	],
-	"id" : "project_1_2d_platformer::@6890427a1f51a3e7e1df",
-	"name" : "project_1_2d_platformer",
-	"nameOnDisk" : "libproject_1_2d_platformer.a",
+	"id" : "project_2::@6890427a1f51a3e7e1df",
+	"name" : "project_2",
+	"nameOnDisk" : "libproject_2.a",
 	"paths" : 
 	{
 		"build" : ".",

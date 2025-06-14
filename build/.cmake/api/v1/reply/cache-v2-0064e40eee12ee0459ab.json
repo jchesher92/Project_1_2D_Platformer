@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "2d_platformers/Project_2_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/james/Development/Repos/Project_2_Personalised_2D_Platformer/build"
+		},
+		{
+			"name" : "2d_platformers/Project_2_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "2d_platformers/Project_2_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/james/Development/Repos/Project_2_Personalised_2D_Platformer"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/james/Development/Repos/Project_1_2D_Platformer/build"
+			"value" : "/home/james/Development/Repos/2d_platformers/Project_2/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -527,7 +563,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/james/Development/Repos/Project_1_2D_Platformer/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/james/Development/Repos/2d_platformers/Project_2/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -587,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/james/Development/Repos/Project_1_2D_Platformer"
+			"value" : "/home/james/Development/Repos/2d_platformers/Project_2"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -831,7 +867,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project_1_2D_Platformer"
+			"value" : "Project_2"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1123,7 +1159,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/james/Development/Repos/Project_1_2D_Platformer/build/_deps"
+			"value" : "/home/james/Development/Repos/2d_platformers/Project_2/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1162,7 +1198,7 @@
 			"value" : "OFF"
 		},
 		{
-			"name" : "Project_1_2D_Platformer_BINARY_DIR",
+			"name" : "Project_2_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1171,10 +1207,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/james/Development/Repos/Project_1_2D_Platformer/build"
+			"value" : "/home/james/Development/Repos/2d_platformers/Project_2/build"
 		},
 		{
-			"name" : "Project_1_2D_Platformer_IS_TOP_LEVEL",
+			"name" : "Project_2_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1186,7 +1222,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Project_1_2D_Platformer_SOURCE_DIR",
+			"name" : "Project_2_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1195,7 +1231,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/james/Development/Repos/Project_1_2D_Platformer"
+			"value" : "/home/james/Development/Repos/2d_platformers/Project_2"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

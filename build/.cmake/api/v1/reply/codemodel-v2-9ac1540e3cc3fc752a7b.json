@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "Project_1_2D_Platformer",
+					"name" : "Project_2",
 					"targetIndexes" : 
 					[
 						0,
@@ -41,15 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Release-192806d76f0ac8e40c57.json",
+					"jsonFile" : "target-main-Release-a62fed21a52e3a57a320.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "project_1_2d_platformer::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-project_1_2d_platformer-Release-2cc8faa15448c121d66a.json",
-					"name" : "project_1_2d_platformer",
+					"id" : "project_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_2-Release-02ff5d46b8d027748b7c.json",
+					"name" : "project_2",
 					"projectIndex" : 0
 				}
 			]
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/james/Development/Repos/Project_1_2D_Platformer/build",
-		"source" : "/home/james/Development/Repos/Project_1_2D_Platformer"
+		"build" : "/home/james/Development/Repos/2d_platformers/Project_2/build",
+		"source" : "/home/james/Development/Repos/2d_platformers/Project_2"
 	},
 	"version" : 
 	{
